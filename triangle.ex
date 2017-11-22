@@ -8,7 +8,7 @@ defmodule Triangle do
 
   @spec draw(Triangle.t) :: any
   def draw(t) do
-    "Drawing"
+    IO.puts t.c.x
   end
 
   @spec mutate(Triangle.t) :: any

@@ -3,9 +3,9 @@ Code.require_file "triangle.ex"
 
 a = %Coordinate{x: 0.0}
 b = %Coordinate{x: 0.0}
-c = %Coordinate{x: 0.0}
+c = %Coordinate{x: 1.2, y: 3.5}
 
 t = %Triangle{a: a, b: b, c: c}
 
-Triangle.draw(%Triangle{})
+Triangle.draw(t)
 
