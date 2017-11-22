@@ -1,4 +1,4 @@
-Code.require_file "coordinate.exs"
+Code.require_file "coordinate.ex"
 
 defmodule Triangle do
   @enforce_keys [:a, :b, :c]
@@ -15,5 +15,5 @@ defmodule Triangle do
   def mutate(t) do
     "Mutating"
   end
-  
+
 end
