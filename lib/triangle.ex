@@ -1,10 +1,8 @@
-Code.require_file "coordinate.ex"
-
 defmodule Triangle do
   @enforce_keys [:a, :b, :c]
   defstruct [:a, :b, :c]
 
-  @type t :: %Triangle{a: Coordinate.t, b: Coordinate.t, c: Coordinate.t}
+  @type t :: %Triangle{a: Point.t, b: Point.t, c: Point.t}
 
   @spec draw(Triangle.t) :: any
   def draw(t) do
