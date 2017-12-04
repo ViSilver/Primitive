@@ -17,7 +17,7 @@ defmodule Primitive do
   end
 
   def create_new do
-    {:ok, img} = Imagineer.load("./resources/img/input.png")
-    :ok = Imagineer.write(img, "./resources/img/output.png")
+    {:ok, img} = Imagineer.load("./resources/img/delaunay.png")
+    :ok = Imagineer.write(img, "./resources/img/delaunay_output.png")
   end
 end

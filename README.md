@@ -1,6 +1,22 @@
 # Primitive
 
-**TODO: Add description**
+For running the application:
+
+```shell
+$ mix deps.get
+$ mix compile
+$ iex -S mix
+```
+In `iex` (as an example): 
+```elixir
+iex> Primitive.create_new
+```
+
+Unfortunately, due to the `Imagineer` library, the code does not work on OS X (specifically on *El Capitan*). 
+It works on Windows (10).
+
+The given work was inspired from fogleman's [primitive](https://github.com/fogleman/primitive).
+
 
 ## Installation
 
